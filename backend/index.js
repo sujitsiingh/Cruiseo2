@@ -1,15 +1,10 @@
 // const express=require("express")
 import express from "express";
-// const mongoose=require("mongoose");
 import mongoose from "mongoose";
-// const dbConnect=require("./db/db")
 import dbConnect from "./db/db.js"
 import userRouter from "./routes/user.route.js";
 import carRouter from "./routes/car.route.js";
 import EnquiryRouter from "./routes/enquiry.route.js";
-// const userRouter = require("./routes/user.route")
-// const carRouter = require("./routes/car.route")
-// const EnquiryRouter = require("./routes/enquiry.route")
 
 require('dotenv').config()
 
